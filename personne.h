@@ -1,4 +1,6 @@
+#pragma once
 #include <string>
+#include "passeport.h"
 using namespace std;
 
 class Passeport;

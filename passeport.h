@@ -1,4 +1,6 @@
+#pragma once
 #include <string>
+#include "personne.h"
 using namespace std;
 
 class Personne; //déclaration de l'existence de la classe Personne 
