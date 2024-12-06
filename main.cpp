@@ -22,6 +22,7 @@ int main()
 
     cout<<toto.getPasseport()->getNumero()<<endl;
     cout<<toto.getPasseport()->getDateExpiration()<<endl;
+    cout<<toto.getPasseport()->getProprietaire()->getNom();
 
     return EXIT_SUCCESS;
 }

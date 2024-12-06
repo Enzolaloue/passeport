@@ -1,4 +1,5 @@
 #include "personne.h"
+#include "passeport.h"
 
 Personne::Personne(string leNom, string lePrenom, string laDateNaissance)
 {
@@ -10,4 +11,5 @@ Personne::Personne(string leNom, string lePrenom, string laDateNaissance)
 void Personne::ajouterPasseport(Passeport* nouveauPasseport)
 {
     this->lePasseport = nouveauPasseport;
+    this->lePasseport->setProprietaire(this);
 }
